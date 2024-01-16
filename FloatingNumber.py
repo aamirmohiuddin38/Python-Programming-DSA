@@ -1,5 +1,6 @@
 # Floating Point Numbers 
 import os
+import math
 os.system("cls")
 print("Python | Programming")
 print("----------------------------------")
@@ -35,5 +36,15 @@ print("\t a = {} \t\t| Type(a): {}".format(a, type(a)))
 print("\t fa = {}\t| Type(fa): {}".format(fa, type(fa)))
 print("\t fb = {}\t| Type(fb): {}".format(fb, type(fb)))
 print("\t b = {}\t| Type(b): {}".format(b,type(b)))
+
+#? Floor, Ceil, Round and trunc
+print("\n\t TRUNC, FLOOR, CEIL and ROUND")
+print("\t------------------------------------")
+fVar = 3.1476
+print("\t Default fVar = {}".format(fVar))
+print("\t Truncated fVar = {}".format(math.trunc(fVar)))
+print("\t Floor fVar = {}".format(math.floor(fVar)))
+print("\t Ceil fVar = {}".format(math.ceil(fVar)))
+print("\t Round fVar = {}".format(round(fVar,2)))
 
 print("\n")
