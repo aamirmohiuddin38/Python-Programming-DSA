@@ -23,4 +23,17 @@ print("\tType2 = {}".format('%4.2f'%fnum))
 print("\tType3 = {}".format('%g'%fnum))
 print("\tTypeOfVariable = {}".format(type(fnum)))
 
+#? Int-Float Compatibility
+a = 2
+fa = 2.0
+fb = fa * a
+b = fb
+
+print("\n\tInt-Float Compatibility")
+print("\t-------------------------------")
+print("\t a = {} \t\t| Type(a): {}".format(a, type(a)))
+print("\t fa = {}\t| Type(fa): {}".format(fa, type(fa)))
+print("\t fb = {}\t| Type(fb): {}".format(fb, type(fb)))
+print("\t b = {}\t| Type(b): {}".format(b,type(b)))
+
 print("\n")
