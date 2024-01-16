@@ -47,4 +47,16 @@ print("\t Floor fVar = {}".format(math.floor(fVar)))
 print("\t Ceil fVar = {}".format(math.ceil(fVar)))
 print("\t Round fVar = {}".format(round(fVar,2)))
 
+#? TypeCasting
+#in python, typecasting is implicit, there is no need to do it explicitly
+print("\n\t Typecasting....(implicit)")
+print("\t-----------------------------")
+ballsFaced = 19
+runsScored = 20
+strikeRate = (runsScored/ballsFaced * 100)
+print("\t Balls Faced : {} | RunsScored : {}".format(ballsFaced, runsScored))
+print("\t Strike Rate : {}".format(('%4.2f')%strikeRate))
+print("\t Type: {}".format(type(strikeRate)))
+
+
 print("\n")
