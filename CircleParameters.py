@@ -1,0 +1,22 @@
+# Program to Calculate circle Parameters - Circumference and Area
+import os
+os.system("cls")
+
+print("Python | Programming")
+print("------------------------------------")
+print("Circle Parameters - Circumference and Area")
+
+rad = float(input("\nEnter the Radius: "))
+dia = 2 * rad
+cir = 2 * 3.142 * rad
+area = 3.142 * rad * rad
+
+#display results
+print("\t Circle - Circumference and Area")
+print("\t -----------------------------------")
+print("\t Radius:\t| {}".format('%4.2f'%rad))
+print("\t Diameter:\t| {}".format('%4.2f'%dia))
+print("\t Circumference:\t| {}".format('%4.2f'%cir))
+print("\t Area:\t\t| {}".format('%4.2f'%area))
+
+print("\n")
