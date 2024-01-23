@@ -15,9 +15,9 @@ area = const.PI * rad * rad
 #display results
 print("\t Circle - Circumference and Area")
 print("\t -----------------------------------")
-print("\t Radius:\t| {}".format('%4.2f'%rad))
-print("\t Diameter:\t| {}".format('%4.2f'%dia))
-print("\t Circumference:\t| {}".format('%4.2f'%cir))
-print("\t Area:\t\t| {}".format('%4.2f'%area))
+print("\t Radius:\t| {}".format('%8.2f'%rad))
+print("\t Diameter:\t| {}".format('%8.2f'%dia))
+print("\t Circumference:\t| {}".format('%8.2f'%cir))
+print("\t Area:\t\t| {}".format('%8.2f'%area))
 
 print("\n")
