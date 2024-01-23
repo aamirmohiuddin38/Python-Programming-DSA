@@ -1,5 +1,6 @@
 # Program to Calculate circle Parameters - Circumference and Area
 import os
+import constants as const
 os.system("cls")
 
 print("Python | Programming")
@@ -8,8 +9,8 @@ print("Circle Parameters - Circumference and Area")
 
 rad = float(input("\nEnter the Radius: "))
 dia = 2 * rad
-cir = 2 * 3.142 * rad
-area = 3.142 * rad * rad
+cir = 2 * const.PI * rad
+area = const.PI * rad * rad
 
 #display results
 print("\t Circle - Circumference and Area")
