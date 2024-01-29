@@ -62,4 +62,14 @@ if(a>b): print("\t a>b is true")
 if(a>=b): print("\t a>=b is true")
 if(a!=b): print("\t a!=b is true")
 
+''' When PYTHON DOES ANY OF THE ABOVE COMPARISONS, IT RETURNS A "True(NON ZERO)", if the condition is true and "FALSE(0)" if the condition
+    is false'''
+
+#?IF - ELSE Combining Multiple Conditions
+print("\n\t ------------------------------")
+print("\t IF-ELSE | Combining multiple conditions...")
+print("\t ------------------------------")
+if(a<100 and a%2==0) : print("\t a < 100 and even") #both conditions must be true - AND
+if(a<100 or a%2==0): print("\t a is either less than 100 or even") #either of the condition must be true - OR
+
 print("\n")
