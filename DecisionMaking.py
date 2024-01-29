@@ -15,5 +15,13 @@ print("\t -----------------------------------")
 if(a % 2 == 0):
     print("\t 'a' is EVEN.")
 
+#?IF - ELSE STATEMENT - checking whether 'a' is even or odd
+print("\n\t ------------------------------")
+print("\t IF-ELSE Statement...")
+print("\t ------------------------------")
+if (a % 2 == 0):
+    print("\t 'a' is EVEN")
+else:
+    print("\t 'a' is ODD")
 
 print("\n")
