@@ -7,6 +7,7 @@ print("--------------------------------------")
 print("Decision Making Statements....\n")
 
 a = int(input("Enter a: | "))
+b = int(input("Enter b: | "))
 
 #? IF STATEMENT - checking whether 'a' is even, if even, print 'a' and if not then do nothing
 print("\n\t -----------------------------------")
@@ -23,5 +24,16 @@ if (a % 2 == 0):
     print("\t 'a' is EVEN")
 else:
     print("\t 'a' is ODD")
+
+#?IF - ELSE IF-ELSE STATEMENT - comparing two numbers whether they are less, greater or equal
+print("\n\t ------------------------------")
+print("\t IF-ELIF-ELSE Statement...")
+print("\t ------------------------------")
+if a>b:
+    print("\t 'a' is GREATER")
+elif a == b:
+    print("\t 'a' and 'b' are equal")
+else:
+    print("\t 'b' is GREATER")
 
 print("\n")
