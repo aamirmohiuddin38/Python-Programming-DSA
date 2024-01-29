@@ -51,5 +51,15 @@ max = a if a>b else b
 print("\t max = {}".format(max))
 print("\t max is {}".format(a)) if a > b else print("\t max is {}".format(b))
 
+#?IF - ELSE IF-ELSE STATEMENT - comparing two numbers whether they are less, greater or equal
+print("\n\t ------------------------------")
+print("\t IF-ELSE | Comparison Operators")
+print("\t ------------------------------")
+if(a<b): print("\t a<b is true")
+if(a<=b): print("\t a<=b is true")
+if(a==b): print("\t a==b is true")
+if(a>b): print("\t a>b is true")
+if(a>=b): print("\t a>=b is true")
+if(a!=b): print("\t a!=b is true")
 
 print("\n")
