@@ -36,4 +36,11 @@ elif a == b:
 else:
     print("\t 'b' is GREATER")
 
+#?IF - ELSE STATEMENT - ONE LINER
+print("\n\t ------------------------------")
+print("\t ONELINER IF-ELIF Statement...")
+print("\t ------------------------------")
+if a%2==0: print("\t 'a' is EVEN")
+else: print("\t 'a' is ODD")
+
 print("\n")
