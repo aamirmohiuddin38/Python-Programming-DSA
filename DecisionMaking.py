@@ -43,4 +43,13 @@ print("\t ------------------------------")
 if a%2==0: print("\t 'a' is EVEN")
 else: print("\t 'a' is ODD")
 
+#? TERNARY IF ELSE Statement....
+print("\n\t ------------------------------")
+print("\t TERNERY IF...")
+print("\t ------------------------------")
+max = a if a>b else b
+print("\t max = {}".format(max))
+print("\t max is {}".format(a)) if a > b else print("\t max is {}".format(b))
+
+
 print("\n")
