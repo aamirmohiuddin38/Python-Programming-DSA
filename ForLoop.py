@@ -65,4 +65,14 @@ while(i>=0):
     print("\t {:.2f}".format(i))
     i -= 0.05
 
+print("\n\t a-z alphabets....")
+print("\t--------------------------")
+for i in range(ord('a'), ord('z')):
+    print("\t",chr(i))
+
+print("\n\t A-Z alphabets....")
+print("\t--------------------------")
+for i in range(ord('A'), ord('Z')):
+    print("\t",chr(i))
+
 print("\n")
